@@ -1,1 +1,41 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  background-color: #551A8B;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+/*   border-bottom: 1px solid #555; */
+}
+
+li a {
+  color:white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+li a:hover {
+  color: #551A8B;
+  background-color: white;
+  text-decoration: none
+}
+
+.home {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #551A8B;
+}
