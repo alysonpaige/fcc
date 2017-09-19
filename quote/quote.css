@@ -26,13 +26,13 @@ li {
 li a {
   color:white;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 li a:hover {
   color: #551A8B;
   background-color: white;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .home {
@@ -43,4 +43,14 @@ a {
   display: block;
   padding: 8px;
   background-color: #551A8B;
+}
+
+.quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:500px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
 }
