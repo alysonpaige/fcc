@@ -56,5 +56,18 @@ a {
 }
 
 .quote-text {
+  text-align: center;
+  font-size: ;
+  font-weight: ;
+  width: auto;
+  height: auto;
   
+}
+
+.quote-author {
+  text-align: center;
+  font-size: ;
+  font-weight: ;
+  width: auto;
+  height: auto;
 }
