@@ -4,6 +4,7 @@ body {
   background-color: #333;
   color: #333;
   font-weight:400;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
@@ -70,4 +71,12 @@ a {
   font-weight: ;
   width: auto;
   height: auto;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  display: block;
+  margin: 10px;
 }
