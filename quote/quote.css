@@ -7,6 +7,14 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+nav {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  left:0;
+  right:0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -14,9 +22,6 @@ ul {
   overflow: hidden;
   background-color: #551A8B;
   border-bottom: .5px solid #000;
-  top: 0;
-  width: 100%;
-/*   position: fixed; */
 }
 
 li {
