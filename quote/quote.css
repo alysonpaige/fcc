@@ -14,20 +14,23 @@ ul {
   overflow: hidden;
   background-color: #551A8B;
   border-bottom: .5px solid #000;
-  position: fixed;
   top: 0;
   width: 100%;
+/*   position: fixed; */
 }
 
 li {
-  float: right;
-/*   border-bottom: 1px solid #555; */
+
 }
 
 li a {
   color:white;
+  display: block;
+  text-align: center;
+  float: right;
   padding: 10px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 li a:hover {
@@ -77,6 +80,5 @@ a {
   text-align: center;
   color: #fff;
   font-size: 0.8em;
-  display: block;
   margin: 10px;
 }
