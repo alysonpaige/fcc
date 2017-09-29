@@ -17,3 +17,7 @@ var quotes = [
   'Life\'s most persistent and urgent question is, \'What are you doing for others?\' -Martin Luther King, Jr.'
 ]
 
+function newQuote() {
+  var randomNumber = Math.floor(Math.random() * (quotes.length));
+  document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
