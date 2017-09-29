@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  background-color: #333;
+  color: #333;
+  font-weight:400;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  left:0;
+  right:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #551A8B;
+  border-bottom: .5px solid #000;
+}
+
+li {
+
+}
+
+li a {
+  color:white;
+  display: block;
+  text-align: center;
+  float: right;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #551A8B;
+  background-color: white;
+  text-decoration: none;
+}
+
+.home {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #551A8B;
+}
+
+.quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:500px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: ;
+  font-weight: ;
+  width: auto;
+  height: auto;
+  
+}
+
+.quote-author {
+  text-align: center;
+  font-size: ;
+  font-weight: ;
+  width: auto;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+.button {
+  height:38px;
+  border:none;
+  border-radius:3px;
+  color:#fff;
+  background-color:#551A8B;
+  outline:none;
+  font-size:0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top:30px;
+  opacity:1;
+  cursor:pointer;
+  float: right;
+  &:hover {
+    color: #551A8B;
+    background-color: white;
+    text-decoration: none;
+    opacity:1.0;
+  }
+}
