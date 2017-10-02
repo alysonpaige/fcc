@@ -108,3 +108,15 @@ a {
     opacity:1.0;
   }
 }
+
+.about {
+  text-align: center;
+  color:#fff;
+  background-color:#551A8B;
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:500px;
+  padding:40px 50px;
+  display:table;
+}
