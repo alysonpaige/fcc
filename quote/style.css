@@ -54,6 +54,12 @@ a {
   background-color: #551A8B;
 }
 
+p a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .quote-box {
   border-radius:3px;
   position:relative;
