@@ -44,15 +44,21 @@ li a:hover {
   text-decoration: none;
 }
 
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
 .home {
   float: left;
 }
 
-a {
+/* a {
   display: block;
   padding: 8px;
   background-color: #551A8B;
-}
+} */
 
 p a {
   color: white;
