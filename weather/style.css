@@ -1,5 +1,18 @@
 body {
   background-color: #0F5474;
-  color: #FFFAFF;
+  color: #FFF;
   font-family: 'Lato', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  margin: 10px;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
 }
