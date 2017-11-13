@@ -29,3 +29,12 @@ h1 {
   text-decoration: none;
   color: white;
 }
+
+.btn-search {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #e7e7e7;
+}
