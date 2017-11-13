@@ -38,3 +38,7 @@ h1 {
   border-radius: 3px;
   background-color: #e7e7e7;
 }
+
+form {
+  border-radius: 3px;
+}
